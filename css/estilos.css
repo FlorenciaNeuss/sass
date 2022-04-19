@@ -1,0 +1,84 @@
+footer {
+  color: #0b0a0b;
+  background-color: rgba(194, 154, 172, 0.836); }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+header {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/234/606/non_2x/vector-dark-grunge-background.jpg); }
+
+footer {
+  bottom: 0;
+  width: 100%;
+  position: fixed; }
+
+.logo {
+  width: 15%; }
+
+main {
+  color: black;
+  background-color: #fce7e1;
+  padding: 50px; }
+
+/* pagina inicio */
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs_dFx_LfgrcmhceZ8VxNtGjHOvBaD43le5Q&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.img {
+  transition: all 1s; }
+
+.img:hover {
+  transform: scale(1.1); }
+
+/* propuesta */
+.table {
+  background-color: rgba(194, 154, 172, 0.719); }
+
+/* nosotros */
+.imgNos {
+  transition: all 3s; }
+
+.imgNos:hover {
+  transform: scale(1.2); }
+
+/* pagina contacto */
+.form {
+  background-color: #c6c3c3;
+  width: 40%; }
+
+h1 {
+  font-family: "Updock", cursive;
+  font-size: 60px; }
+
+h2 {
+  font-size: 40px;
+  font-family: "Updock", cursive; }
+
+h3 {
+  font-size: 15px; }
+
+p, footer {
+  font-family: "Questrial", sans-serif; }
+
+footer {
+  color: #0b0a0b;
+  background-color: rgba(194, 154, 172, 0.836); }
+
+ul {
+  list-style: none; }
+  ul li {
+    display: inline-block;
+    padding: 15px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px; }
+    ul li .nav-link {
+      text-decoration: none;
+      font-size: 17px;
+      color: #c29aac; }
+      ul li .nav-link:hover {
+        color: #e993cf;
+        font-weight: bold; }
