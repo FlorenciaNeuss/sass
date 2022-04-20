@@ -1,57 +1,30 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-
-header{
-     background-image: url(https://static.vecteezy.com/system/resources/previews/000/234/606/non_2x/vector-dark-grunge-background.jpg);
-}
-footer {
-    bottom: 0;
-    width: 100%;
-    position: fixed;
-}
-
-.logo {
-  width: 15%;
-}
-main {
-  color:$fuenteColor;
-  background-color: rgb(252, 231, 225);
-  padding: 50px;
-}
-
-
 
 /* pagina inicio */
 body {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs_dFx_LfgrcmhceZ8VxNtGjHOvBaD43le5Q&usqp=CAU");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs_dFx_LfgrcmhceZ8VxNtGjHOvBaD43le5Q&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
   .img {
     transition: all 1s;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
-  .img:hover {
-    transform: scale(1.1);
-  }
-  
-  /* propuesta */
-  .table {
-    background-color: rgba(194, 154, 172, 0.719);
-  }
-  
-  /* nosotros */
-  .imgNos {
-    transition: all 3s;
-  }
-  .imgNos:hover {
-    transform: scale(1.2);
-  }
-  
-  /* pagina contacto */
-  .form {
-    background-color: rgb(198, 195, 195);
-    width: 40%;
-  }
+}
+
+/* nosotros */
+.imgNos {
+  transition: all 3s;
+}
+.imgNos:hover {
+  transform: scale(1.2);
+}
+
+/* pagina contacto */
+.form {
+  width: 40%;
+}

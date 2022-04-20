@@ -2,41 +2,27 @@ footer {
   color: #0b0a0b;
   background-color: rgba(194, 154, 172, 0.836); }
 
+/* propuesta */
+.table {
+  background-color: rgba(194, 154, 172, 0.719); }
+
+/* pagina contacto */
+.form {
+  background-color: #c6c3c3; }
+
 * {
   margin: 0px;
   padding: 0px; }
-
-header {
-  background-image: url(https://static.vecteezy.com/system/resources/previews/000/234/606/non_2x/vector-dark-grunge-background.jpg); }
-
-footer {
-  bottom: 0;
-  width: 100%;
-  position: fixed; }
-
-.logo {
-  width: 15%; }
-
-main {
-  color: black;
-  background-color: #fce7e1;
-  padding: 50px; }
 
 /* pagina inicio */
 body {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs_dFx_LfgrcmhceZ8VxNtGjHOvBaD43le5Q&usqp=CAU");
   background-size: cover;
   background-repeat: no-repeat; }
-
-.img {
-  transition: all 1s; }
-
-.img:hover {
-  transform: scale(1.1); }
-
-/* propuesta */
-.table {
-  background-color: rgba(194, 154, 172, 0.719); }
+  body .img {
+    transition: all 1s; }
+    body .img:hover {
+      transform: scale(1.1); }
 
 /* nosotros */
 .imgNos {
@@ -47,7 +33,6 @@ body {
 
 /* pagina contacto */
 .form {
-  background-color: #c6c3c3;
   width: 40%; }
 
 h1 {
@@ -68,17 +53,39 @@ footer {
   color: #0b0a0b;
   background-color: rgba(194, 154, 172, 0.836); }
 
-ul {
-  list-style: none; }
-  ul li {
-    display: inline-block;
-    padding: 15px;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 20px; }
-    ul li .nav-link {
-      text-decoration: none;
-      font-size: 17px;
-      color: #c29aac; }
-      ul li .nav-link:hover {
-        color: #e993cf;
-        font-weight: bold; }
+/* propuesta */
+.table {
+  background-color: rgba(194, 154, 172, 0.719); }
+
+/* pagina contacto */
+.form {
+  background-color: #c6c3c3; }
+
+header {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/234/606/non_2x/vector-dark-grunge-background.jpg); }
+  header .logo {
+    width: 15%; }
+  header ul {
+    list-style: none; }
+    header ul li {
+      display: inline-block;
+      padding: 15px;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 20px; }
+      header ul li .nav-link {
+        text-decoration: none;
+        font-size: 17px;
+        color: #c79eb1; }
+        header ul li .nav-link:hover {
+          color: #e993cf;
+          font-weight: bold; }
+
+.main1 {
+  color: black;
+  background-color: #fce7e1;
+  padding: 50px; }
+
+footer {
+  bottom: 0;
+  width: 100%;
+  position: fixed; }

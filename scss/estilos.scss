@@ -4,21 +4,39 @@
 @import "tipografia";
 @import "colores";
 
-ul {
-  list-style: none;
-  li {
-    display: inline-block;
-    padding: 15px;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
-    .nav-link {
-      text-decoration: none;
-      font-size: 17px;
-      color: rgb(194, 154, 172);
-      &:hover {
-        color: rgb(233, 147, 207);
-        font-weight: bold;
+header {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/234/606/non_2x/vector-dark-grunge-background.jpg);
+  .logo {
+    width: 15%;
+  }
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      padding: 15px;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 20px;
+      .nav-link {
+        text-decoration: none;
+        font-size: 17px;
+        color: rgb(199, 158, 177);
+        &:hover {
+          color: rgb(233, 147, 207);
+          font-weight: bold;
+        }
       }
     }
   }
+}
+
+.main1 {
+  color: $fuenteColor;
+  background-color: rgb(252, 231, 225);
+  padding: 50px;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  position: fixed;
 }
