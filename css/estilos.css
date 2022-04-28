@@ -1,14 +1,14 @@
-footer {
-  color: #0b0a0b;
+.item-footer {
   background-color: rgba(194, 154, 172, 0.836); }
 
-/* propuesta */
-.table {
+.item-table {
   background-color: rgba(194, 154, 172, 0.719); }
 
-/* pagina contacto */
-.form {
+.item-form {
   background-color: #c6c3c3; }
+
+footer {
+  color: #0b0a0b; }
 
 * {
   margin: 0px;
@@ -35,31 +35,29 @@ body {
 .form {
   width: 40%; }
 
-h1 {
+@media screen and (max-width: 1500px) {
+  .collapse {
+    display: none; } }
+
+@media screen and (max-width: 770px) {
+  .nav1 {
+    display: none; }
+  .collapse {
+    display: list-item; } }
+
+h1, h2 {
   font-family: "Updock", cursive;
   font-size: 60px; }
 
 h2 {
-  font-size: 40px;
-  font-family: "Updock", cursive; }
+  font-size: 40px; }
 
 h3 {
   font-size: 15px; }
 
-p, footer {
-  font-family: "Questrial", sans-serif; }
-
+p,
 footer {
-  color: #0b0a0b;
-  background-color: rgba(194, 154, 172, 0.836); }
-
-/* propuesta */
-.table {
-  background-color: rgba(194, 154, 172, 0.719); }
-
-/* pagina contacto */
-.form {
-  background-color: #c6c3c3; }
+  font-family: "Questrial", sans-serif; }
 
 header {
   background-image: url(https://static.vecteezy.com/system/resources/previews/000/234/606/non_2x/vector-dark-grunge-background.jpg); }
@@ -71,10 +69,9 @@ header {
       display: inline-block;
       padding: 15px;
       font-family: "Times New Roman", Times, serif;
-      font-size: 20px; }
+      font-size: 17px; }
       header ul li .nav-link {
         text-decoration: none;
-        font-size: 17px;
         color: #c79eb1; }
         header ul li .nav-link:hover {
           color: #e993cf;
@@ -84,6 +81,9 @@ header {
   color: black;
   background-color: #fce7e1;
   padding: 50px; }
+
+.mainContacto {
+  margin-bottom: 10%; }
 
 footer {
   bottom: 0;

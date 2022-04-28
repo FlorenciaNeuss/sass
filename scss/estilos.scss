@@ -1,8 +1,12 @@
 @import "variables";
 @import "colores";
 @import "estructura";
+@import "responsive";
+@mixin sizes($size, $font) {
+  font-family: $font;
+  font-size: $size;
+}
 @import "tipografia";
-@import "colores";
 
 header {
   background-image: url(https://static.vecteezy.com/system/resources/previews/000/234/606/non_2x/vector-dark-grunge-background.jpg);
@@ -14,11 +18,9 @@ header {
     li {
       display: inline-block;
       padding: 15px;
-      font-family: "Times New Roman", Times, serif;
-      font-size: 20px;
+      @include sizes(17px, $fuenteNav);
       .nav-link {
         text-decoration: none;
-        font-size: 17px;
         color: rgb(199, 158, 177);
         &:hover {
           color: rgb(233, 147, 207);
@@ -33,6 +35,10 @@ header {
   color: $fuenteColor;
   background-color: rgb(252, 231, 225);
   padding: 50px;
+}
+
+.mainContacto {
+  margin-bottom: 10%;
 }
 
 footer {

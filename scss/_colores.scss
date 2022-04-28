@@ -1,13 +1,13 @@
+$fondo: (
+  footer: rgba(194, 154, 172, 0.836),
+  table: rgba(194, 154, 172, 0.719),
+  form: rgb(198, 195, 195),
+);
+@each $item, $color in $fondo {
+  .item-#{$item} {
+    background-color: $color;
+  }
+}
 footer {
   color: rgb(11, 10, 11);
-  background-color: rgba(194, 154, 172, 0.836);
-}
-/* propuesta */
-.table {
-  background-color: rgba(194, 154, 172, 0.719);
-}
-
-/* pagina contacto */
-.form {
-  background-color: rgb(198, 195, 195);
 }
